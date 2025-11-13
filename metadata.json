@@ -1,0 +1,7 @@
+{
+  "name": "1.3 MC -Albaranes",
+  "description": "A dashboard for managing and processing orders from Telegram and voice, with integration for Factusol. Users can review, edit, and export orders.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
