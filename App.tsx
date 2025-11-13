@@ -25,7 +25,7 @@ const Header: React.FC<{ currentView: View; setView: (view: View) => void; onLog
           <Logo aria-label="Marcelino Calvo Logo" className="h-12 w-auto" />
           <div className="flex items-baseline space-x-2">
              <h1 className="text-xl sm:text-2xl font-bold text-gray-100">Gestión de Pedidos</h1>
-             <span className="bg-blue-800 text-blue-300 text-xs font-semibold px-2 py-0.5 rounded-full">Versión 1.3</span>
+             <span className="text-gray-400 text-xs font-semibold">Versión 1.3</span>
           </div>
         </div>
         <nav className="flex items-center space-x-4">
