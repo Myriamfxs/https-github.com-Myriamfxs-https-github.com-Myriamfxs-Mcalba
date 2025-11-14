@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import type { AppConfig } from '../types';
-import { INITIAL_CONFIG, LOG_DATA } from '../constants';
+import { INITIAL_CONFIG } from '../constants';
+import { LOG_DATA } from '../logs';
 
 const ConfigCard: React.FC<{ title: string; children: React.ReactNode }> = ({ title, children }) => (
   <div className="bg-gray-800 p-6 rounded-lg shadow-xl">
